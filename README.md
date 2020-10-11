@@ -5,16 +5,16 @@ this is the django app which interacts with the rest api and react app
 # todofrontend
 this is the react app
 # to connect with react and django
-we have the white list the localhost of the react app in the settings.py of django
-to use the react with django we have run both the servers npm start in react app dir and python manage.py runserver in django dir so that both the localhosts interact with each other
+- we have the white list the localhost of the react app in the settings.py of django
+- to use the react with django we have run both the servers npm start in react app dir and python manage.py runserver in django dir so that both the localhosts interact with each other
 # todoapp
 ## installed apps in settings.py
-todo/apps.TodoConfig //this is for app which we created in django
-rest_framework // this is for the restapi
-corsheaders //we are using corsheaders for merging the urls with each other
+- todo/apps.TodoConfig //this is for app which we created in django
+- rest_framework // this is for the restapi
+- corsheaders //we are using corsheaders for merging the urls with each other
 ## urls.py
-here we add the route for the django app and reactapp 
-for reactapp we have to link the index.html inside the build folder bcz the reactjs when we are testing, we are only using the .js files so we have to use thw template in build folder
+- here we add the route for the django app and reactapp 
+- for reactapp we have to link the index.html inside the build folder bcz the reactjs when we are testing, we are only using the .js files so we have to use thw template in build folder
 # todo
 ## models.py 
 in this we create the task
