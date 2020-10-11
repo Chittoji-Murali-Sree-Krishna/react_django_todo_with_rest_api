@@ -35,3 +35,6 @@ after clicking create this will make create the task in the database
 this will update the task which we have created
 ### taskDelete
 this will delete task which we have selected and we are using the djnago built in function for this i.e, .delte()
+
+# final
+after building the reactapp we also need to run the server for updating the tasks if not we cant able todo any thing it will be as static page
