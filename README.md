@@ -23,15 +23,15 @@ we are using sereliazers.py bcz we are managing the tasks over json and post, ge
 ## ll. urls.py
 we use this urls to route the views which we create
 ## lll. views.py
-### - apiOverview
+### apiOverview
 to list all the routes for the todos required
-### - taskList
+### taskList
 this will list all the tasks we have
-### - taskDetail
+### taskDetail
 this will show the selected object in a detail
-### - taskCreate
+### taskCreate
 after clicking create this will make create the task in the database
-### - taskUpdate
+### taskUpdate
 this will update the task which we have created
-### - taskDelete
+### taskDelete
 this will delete task which we have selected and we are using the djnago built in function for this i.e, .delte()
