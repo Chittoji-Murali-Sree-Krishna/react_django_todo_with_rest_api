@@ -20,9 +20,9 @@ this is the react app
 in this we create the task
 ## l. serelizers.py
 we are using sereliazers.py bcz we are managing the tasks over json and post, get methods
-## l. urls.py
+## ll. urls.py
 we use this urls to route the views which we create
-## l. views.py
+## lll. views.py
 ### - apiOverview
 to list all the routes for the todos required
 ### - taskList
