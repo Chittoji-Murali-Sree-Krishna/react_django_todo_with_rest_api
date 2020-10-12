@@ -33,7 +33,7 @@ INSTALLED_APPS = [
 ```python
 from django.views.generic import TemplateView
 ```
-1. for reactapp we have to link the index.html inside the build folder bcz the reactjs when we are testing, we are only using the .js files so we have to use thw template in build folder
+1. for reactapp basically we dont have html page by start we do everything in src so we have to choose default build page for accessing the app instead of building each and everytime
 ```python
 urlpatterns = [
     path('admin/', admin.site.urls),
