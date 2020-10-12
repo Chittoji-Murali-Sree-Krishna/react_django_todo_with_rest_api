@@ -1,5 +1,5 @@
 # todoapp
-this is a django project it contains the rest apps
+this is a django project
 # todo
 this is the django app which interacts with the rest api and react app
 # todofrontend
