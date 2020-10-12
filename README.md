@@ -11,9 +11,9 @@
 ## installed apps in settings.py
 ```python
 INSTALLED_APPS = [
-    'todo.apps.TodoConfig', // the app which we created
-    'rest_framework', // for the rest api
-    'corsheaders', //for the boot strap styling
+    'todo.apps.TodoConfig',  #the app which we created
+    'rest_framework',  #for the rest api
+    'corsheaders', #for the boot strap styling
 ]
 ```
 ## urls.py
