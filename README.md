@@ -1,9 +1,9 @@
 # todoapp
-this is a django project
+>this is a django project
 # todo
-this is the django app which interacts with the rest api and react app
+>this is the django app which interacts with the rest api and react app
 # todofrontend
-this is the react app
+>this is the react app
 # to connect with react and django
 1. we have the white list the localhost of the react app in the settings.py of django
 1. to use the react with django we have run both the servers npm start in react app dir and python manage.py runserver in django dir so that both the localhosts interact with each other
@@ -37,4 +37,4 @@ this is the react app
 >this will delete task which we have selected and we are using the djnago built in function for this i.e, .delte()
 
 # final
-1. after building the reactapp we also need to run the server for updating the tasks if not we cant able todo any thing it will be as static page
+>after building the reactapp we also need to run the server for updating the tasks if not we cant able todo any thing it will be as static page
