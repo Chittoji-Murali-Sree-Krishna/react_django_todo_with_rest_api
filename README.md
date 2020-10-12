@@ -6,19 +6,41 @@
 >this is the react app
 # to connect with react and django
 1. we have the white list the localhost of the react app in the settings.py of django
+```python
+CORS_ORIGIN_WHITELIST = [
+    "http://localhost:3000",
+]
+```
 1. to use the react with django we have run both the servers npm start in react app dir and python manage.py runserver in django dir so that both the localhosts interact with each other
+1. for styling and stuff we have connect the static files of the react build 
+```python
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'todofrontend/build/static')
+]
+```
 # todoapp
 ## installed apps in settings.py
 ```python
 INSTALLED_APPS = [
     'todo.apps.TodoConfig',  #the app which we created
     'rest_framework',  #for the rest api
-    'corsheaders', #for the boot strap styling
+    'corsheaders', #for the bootstrap4 styling
 ]
 ```
 ## urls.py
-1. here we add the route for the django app and reactapp 
+1. here we add the route for the django app and reactapp
+1. we have to import template view for accessing the class 
+```python
+from django.views.generic import TemplateView
+```
 1. for reactapp we have to link the index.html inside the build folder bcz the reactjs when we are testing, we are only using the .js files so we have to use thw template in build folder
+```python
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('todo/', include('todo.urls')),
+    path('', TemplateView.as_view(template_name= 'index.html')),
+]
+```
 # todo
 ## models.py 
 >in this we create the task
