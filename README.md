@@ -5,8 +5,8 @@ this is the django app which interacts with the rest api and react app
 # todofrontend
 this is the react app
 # to connect with react and django
->we have the white list the localhost of the react app in the settings.py of django
->to use the react with django we have run both the servers npm start in react app dir and python manage.py runserver in django dir so that both the localhosts interact with each other
+1. we have the white list the localhost of the react app in the settings.py of django
+1. to use the react with django we have run both the servers npm start in react app dir and python manage.py runserver in django dir so that both the localhosts interact with each other
 # todoapp
 ## installed apps in settings.py
 - todo/apps.TodoConfig //this is for app which we created in django
