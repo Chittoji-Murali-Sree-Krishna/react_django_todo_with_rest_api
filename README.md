@@ -1,5 +1,5 @@
-<font style="color:red"> todoapp </font>
-this is a django project
+# todoapp
+this is a django project it contains the rest apps
 # todo
 this is the django app which interacts with the rest api and react app
 # todofrontend
