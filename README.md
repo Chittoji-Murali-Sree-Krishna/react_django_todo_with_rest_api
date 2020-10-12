@@ -49,17 +49,17 @@ urlpatterns = [
 ## ll. urls.py
 >we use this urls to route the views which we create
 ## lll. views.py
-#### apiOverview
+1. **apiOverview**
 >to list all the routes for the todos required
-#### taskList
+1. **taskList**
 >this will list all the tasks we have
-#### taskDetail
+1. **taskDetail**
 >this will show the selected object in a detail
-#### taskCreate
+1. **taskCreate**
 >after clicking create this will make create the task in the database
-#### taskUpdate
+1. **taskUpdate**
 >this will update the task which we have created
-#### taskDelete
+1. **taskDelete**
 >this will delete task which we have selected and we are using the djnago built in function for this i.e, .delte()
 
 # final
