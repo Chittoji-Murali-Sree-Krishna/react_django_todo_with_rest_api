@@ -1,4 +1,4 @@
-# todoapp
+#ff0000 todoapp
 this is a django project
 # todo
 this is the django app which interacts with the rest api and react app
