@@ -1,4 +1,4 @@
-<h1 style="color:red"> todoapp </h1>
+<font style="color:red"> todoapp </font>
 this is a django project
 # todo
 this is the django app which interacts with the rest api and react app
