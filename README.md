@@ -9,32 +9,32 @@ this is the react app
 1. to use the react with django we have run both the servers npm start in react app dir and python manage.py runserver in django dir so that both the localhosts interact with each other
 # todoapp
 ## installed apps in settings.py
-- todo/apps.TodoConfig //this is for app which we created in django
-- rest_framework // this is for the restapi
-- corsheaders //we are using corsheaders for merging the urls with each other
+1. todo/apps.TodoConfig //this is for app which we created in django
+1. rest_framework // this is for the restapi
+1. corsheaders //we are using corsheaders for merging the urls with each other
 ## urls.py
-- here we add the route for the django app and reactapp 
-- for reactapp we have to link the index.html inside the build folder bcz the reactjs when we are testing, we are only using the .js files so we have to use thw template in build folder
+1. here we add the route for the django app and reactapp 
+1. for reactapp we have to link the index.html inside the build folder bcz the reactjs when we are testing, we are only using the .js files so we have to use thw template in build folder
 # todo
 ## models.py 
-in this we create the task
+>in this we create the task
 ## l. serelizers.py
-we are using sereliazers.py bcz we are managing the tasks over json and post, get methods
+>we are using sereliazers.py bcz we are managing the tasks over json and post, get methods
 ## ll. urls.py
-we use this urls to route the views which we create
+>we use this urls to route the views which we create
 ## lll. views.py
 ### apiOverview
-to list all the routes for the todos required
+>to list all the routes for the todos required
 ### taskList
-this will list all the tasks we have
+>this will list all the tasks we have
 ### taskDetail
-this will show the selected object in a detail
+>this will show the selected object in a detail
 ### taskCreate
-after clicking create this will make create the task in the database
+>after clicking create this will make create the task in the database
 ### taskUpdate
-this will update the task which we have created
+>this will update the task which we have created
 ### taskDelete
-this will delete task which we have selected and we are using the djnago built in function for this i.e, .delte()
+>this will delete task which we have selected and we are using the djnago built in function for this i.e, .delte()
 
 # final
-after building the reactapp we also need to run the server for updating the tasks if not we cant able todo any thing it will be as static page
+1. after building the reactapp we also need to run the server for updating the tasks if not we cant able todo any thing it will be as static page
