@@ -9,9 +9,13 @@
 1. to use the react with django we have run both the servers npm start in react app dir and python manage.py runserver in django dir so that both the localhosts interact with each other
 # todoapp
 ## installed apps in settings.py
-1. todo/apps.TodoConfig //this is for app which we created in django
-1. rest_framework // this is for the restapi
-1. corsheaders //we are using corsheaders for merging the urls with each other
+```python
+INSTALLED_APPS = [
+    'todo.apps.TodoConfig', // the app which we created
+    'rest_framework', // for the rest api
+    'corsheaders', //for the boot strap styling
+]
+```
 ## urls.py
 1. here we add the route for the django app and reactapp 
 1. for reactapp we have to link the index.html inside the build folder bcz the reactjs when we are testing, we are only using the .js files so we have to use thw template in build folder
